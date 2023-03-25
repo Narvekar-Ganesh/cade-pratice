@@ -9,6 +9,11 @@ package logicalthinking.examples.primenumberfinder;
  */
 public class PrimeNumberFinder {
 	public void find(int inputNumber) {
+		boolean result = isGivenNumberPrime(inputNumber);// segregation of responsibilities
+		displayResult(result, inputNumber);
+	}
+
+	private boolean isGivenNumberPrime(int inputNumber) {// these behaviors should be hidden from external world
 		boolean result = false;
 		for (int counter = 2; counter < inputNumber; counter++) {
 			if (inputNumber % counter == 0) {
@@ -16,10 +21,14 @@ public class PrimeNumberFinder {
 				break;
 			}
 		}
+		return !result;
+	}
+
+	private void displayResult(boolean result, int inputNumber) {// these behaviors should be hidden from external world
 		if (result) {
-			System.out.println(" Given Number is prime number");
+			System.out.println("Given Number " + inputNumber + " is prime number");
 		} else {
-			System.out.println("Given Number is not Prime number");
+			System.out.println("Given Number " + inputNumber + " not Prime number");
 		}
 	}
 
