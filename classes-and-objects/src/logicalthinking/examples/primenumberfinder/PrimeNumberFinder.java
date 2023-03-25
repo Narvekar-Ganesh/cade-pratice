@@ -15,7 +15,6 @@ public class PrimeNumberFinder {
 				result = true;
 				break;
 			}
-
 		}
 		if (result == true) {
 			System.out.println(" Given Number is prime number");
