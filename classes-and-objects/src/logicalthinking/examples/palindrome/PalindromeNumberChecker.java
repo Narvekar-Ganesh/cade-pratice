@@ -1,3 +1,4 @@
+package logicalthinking.examples.palindrome;
 
 /**
  * <b>Description:</b>This is class is responsible for finding number is
@@ -6,7 +7,7 @@
  * @author Ganesh Narvekar
  *
  */
-public class PalindromeOfNumber {
+public class PalindromeNumberChecker {
 	public void calculate() {
 		int inputNumber = 111;
 		int remainder;
@@ -26,7 +27,7 @@ public class PalindromeOfNumber {
 	}
 
 	public static void main(String args[]) {
-		PalindromeOfNumber palindromeOfNumber = new PalindromeOfNumber();
+		PalindromeNumberChecker palindromeOfNumber = new PalindromeNumberChecker();
 		palindromeOfNumber.calculate();
 	}
 
