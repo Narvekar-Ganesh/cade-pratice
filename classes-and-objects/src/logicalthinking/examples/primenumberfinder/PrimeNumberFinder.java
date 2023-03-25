@@ -27,5 +27,4 @@ public class PrimeNumberFinder {
 		PrimeNumberFinder primeNumberFinder = new PrimeNumberFinder();
 		primeNumberFinder.calculate(67);
 	}
-
 }
