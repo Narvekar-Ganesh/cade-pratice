@@ -14,7 +14,6 @@ public class PrimeNumberFinder {
 			if (inputNumber % counter == 0) {
 				result = true;
 				break;
-
 			}
 
 		}
