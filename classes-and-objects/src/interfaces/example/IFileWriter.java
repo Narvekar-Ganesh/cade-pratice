@@ -9,4 +9,6 @@ public interface IFileWriter {
 	boolean isFileDeleted();
 	
 	boolean isFileInsert();
+	
+	boolean isFileUpdated();
 }
