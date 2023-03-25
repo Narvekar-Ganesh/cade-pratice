@@ -11,4 +11,6 @@ public interface IFileWriter {
 	boolean isFileInsert();
 	
 	boolean isFileUpdated();
+	
+	boolean  isFileModified();
 }
