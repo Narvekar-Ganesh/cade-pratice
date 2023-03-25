@@ -8,7 +8,7 @@ package logicalthinking.examples.primenumberfinder;
  *
  */
 public class PrimeNumberFinder {
-	public void calculate(int inputNumber) {
+	public void find(int inputNumber) {
 		boolean result = false;
 		for (int counter = 2; counter < inputNumber; counter++) {
 			if (inputNumber % counter == 0) {
@@ -25,6 +25,6 @@ public class PrimeNumberFinder {
 
 	public static void main(String args[]) {
 		PrimeNumberFinder primeNumberFinder = new PrimeNumberFinder();
-		primeNumberFinder.calculate(67);
+		primeNumberFinder.find(67);
 	}
 }
