@@ -17,6 +17,7 @@ public class EmployeeOperatorRunner {
 		
 //		Total number of employees are <result>
 		int size = employeeOperator.getSize();
+		employeeOperator.getEmployeeName(3);
 		System.out.println("Total number of employees are "  + size );
 		
 	}

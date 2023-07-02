@@ -22,7 +22,7 @@ public class EmployeeOperator {
 		/*
 		 * System.out.println("employee is : " + employee);
 		 * System.out.println("Strings is : " + strings);
-		 * System.out.println("SampleInt is : " + sampleInt);
+		 * System.out.println("SampleInt is : " + sampleInt);			
 		 */
 
 		boolean result = strings.add(inputString);
