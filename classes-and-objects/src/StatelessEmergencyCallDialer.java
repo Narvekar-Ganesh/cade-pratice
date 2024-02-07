@@ -9,7 +9,7 @@ public class StatelessEmergencyCallDialer {
 	public static int dialeFireEmergency (int inputNumber) {
 		return inputNumber;
 	} 
-}
+}	
 //if(i>0) {
 //i=i*i;
 //i--;
