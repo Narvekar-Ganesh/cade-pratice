@@ -13,7 +13,7 @@ public class FibonacciSeries {
 		int thirdNumber;
 		for (int i = 1; i < 10; i++) {
 			System.out.println(firstNumber);
-			thirdNumber = firstNumber + secondNumber;
+			thirdNumber = firstNumber + secondNumber;                     
 			firstNumber = secondNumber;
 			secondNumber = thirdNumber;
 		}
@@ -21,9 +21,15 @@ public class FibonacciSeries {
 	}
 
 	public static void main(String args[]) {
-		FibonacciSeries fibonacciSeries = new FibonacciSeries();
-		fibonacciSeries.calculateFibinacci();
-
+//		FibonacciSeries fibonacciSeries = new FibonacciSeries();
+//		fibonacciSeries.calculateFibinacci();
+		short shortVar = 10;
+		int intVar = 45;
+		float floatVar =795;
+		intVar=(short)intVar;
+		floatVar= (int)floatVar;
+		System.out.println(shortVar);
+		System.out.println(floatVar);
 	}
 
 }
